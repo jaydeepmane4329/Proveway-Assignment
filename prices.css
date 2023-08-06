@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main_container header {
+  color: #007f61;
+  font-family: Inter;
+  font-size: 18.076px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #c8c8c8;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+#main_container header span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.main_table {
+  width: 100%;
+}
+
+#main_container table tr td:nth-child(2) {
+  text-align: right;
+  padding: 2px;
+}
+
+#main_container table tr td:nth-child(1) {
+  text-align: left;
+}
+
+.div_1,
+.div_2,
+.div_3 {
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+  padding: 12px 30px;
+}
+
+.div_1,
+.div_3 {
+  border-radius: 3.615px;
+  border: 0.904px solid #c8c8c8;
+  background: #fff;
+}
+
+/* Override CSS for select arrow ICON */
+select {
+  width: 65.978px;
+  height: 25.306px;
+  border-radius: 1.808px;
+  border: 0.904px solid #d9d9d9;
+  background: #fff;
+  color: #000;
+  font-family: Inter;
+  font-size: 10.846px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 2px;
+  line-height: normal;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='18px' viewBox='0 0 24 24' width='12px' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 3px;
+}
+
+.div_2 {
+  border-radius: 3.615px;
+  border: 0.904px solid #007f61;
+  background: #f4fbf9;
+}
+
+#main_container label {
+  color: #000;
+  font-family: Inter;
+  font-size: 9.038px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main_table label {
+  font-size: 14.461px !important;
+}
+
+th {
+  color: #000;
+  font-family: Inter;
+  font-size: 9.942px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transform: translateX(-17px);
+}
+
+#main_container h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 0 1 2em;
+}
+
+input[type="radio"] {
+  transform: translateY(10px);
+  margin-right: 10px;
+}
+
+#main_container p {
+  color: #000;
+  font-family: Inter;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.div_2 b {
+  color: #000;
+  font-family: Inter;
+  font-size: 9.942px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.4;
+  text-decoration: line-through;
+  margin-left: 1em;
+}
+
+.div_2 p:nth-child(1) {
+  color: #007f61 !important;
+  font-size: 12.653px !important;
+  font-weight: 600 !important;
+}
+
+.div_2 p {
+  font-size: 12.653px !important;
+}
+
+footer span {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  float: right;
+}
+
+footer span b {
+  font-weight: 500 !important;
+}
+
+footer span:nth-child(1) {
+  font-weight: 500 !important;
+  color: #007f61 !important;
+  opacity: 0.6 !important;
+  float: left !important;
+}
+
+button {
+  width: 100%;
+  height: 48px;
+  border-radius: 4px 4px 4px 0px;
+  background: #007f61;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 22 0 8 0px;
+}
+
+footer p {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic !important;
+  font-weight: 300 !important;
+  line-height: normal;
+  text-align: right;
+}
+
+footer p i {
+  font-size: 12px !important;
+  margin-right: 2px;
+}

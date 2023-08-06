@@ -1,0 +1,73 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proveway Assignment</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="prices.css" />
+  </head>
+
+  <body>
+    <!-- Main DIVISION -->
+    <div id="main_container">
+      <header><span>Bundle & Save</span></header>
+      <section>
+        <article class="div_1">
+          <table class="main_table">
+            <tr>
+              <td>
+                <input type="radio" onclick="add('Box_1')" />
+                <label for="item">1 Pair</label>
+                <h1>DKK 195.00</h1>
+              </td>
+              <td>
+                <p>50% OFF</p>
+              </td>
+            </tr>
+            <table id="Box_1"></table>
+          </table>
+        </article>
+        <article class="div_2">
+          <table class="main_table">
+            <tr>
+              <td colspan="2">
+                <input type="radio" onclick="add('Box_2')" />
+                <label for="item">2 Pair</label>
+                <h1>DKK 345.00 <b>DKK 195.00</b></h1>
+              </td>
+              <td>
+                <p>Most popular</p>
+                <p>40% OFF</p>
+              </td>
+            </tr>
+            <table id="Box_2"></table>
+          </table>
+        </article>
+        <article class="div_3">
+          <table class="main_table">
+            <tr>
+              <td>
+                <input type="radio" onclick="add('Box_3')" />
+                <label for="item">3 Pair</label>
+                <h1>DKK 528.00</h1>
+              </td>
+              <td>
+                <p>60% OFF</p>
+              </td>
+            </tr>
+            <table id="Box_3"></table>
+          </table>
+        </article>
+      </section>
+      <footer>
+        <span>Free 2 Day Shipping</span>
+        <span>Total : <b>DKK 360.00</b></span
+        ><br />
+        <button>+ Add to Cart</button>
+        <p><i>&copy;</i>Powered by Pumper</p>
+      </footer>
+    </div>
+    <!-- External Javascript -->
+    <script type="text/javascript" src="prices.js"></script>
+  </body>
+</html>
