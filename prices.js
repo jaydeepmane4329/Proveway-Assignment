@@ -1,8 +1,20 @@
-
 // Function to add price and size options dynamically.
 function add(idOfDiv) {
   // getting perticular div from DOM based on it's #id;
-  let table = document.getElementById(idOfDiv);
+  table = document.getElementById(idOfDiv);
+  if (idOfDiv === "Box_1") {
+    table = document.getElementById('Box_1');
+    document.getElementById('Box_2').innerHTML = "";
+    document.getElementById('Box_3').innerHTML = "";
+  } else if (idOfDiv === "Box_2") {
+    table = document.getElementById('Box_2');
+    document.getElementById('Box_1').innerHTML = "";
+    document.getElementById('Box_3').innerHTML = "";
+  } else {
+    table = document.getElementById('Box_3');
+    document.getElementById('Box_1').innerHTML = "";
+    document.getElementById('Box_2').innerHTML = "";
+  }
   table.innerHTML = `<thead>
    <th>size</th>
    <th>Colour</th>
@@ -50,5 +62,5 @@ function add(idOfDiv) {
        </select>
      </td>
    </tr>
- </tbody>`
+ </tbody>`;
 }
